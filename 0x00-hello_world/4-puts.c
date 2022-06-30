@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+
 /**
  * main - main block
  * Return: 0
