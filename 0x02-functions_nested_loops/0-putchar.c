@@ -17,7 +17,7 @@ int main(void)
 	{
 		_putchar(var[ii]);
 	}
-	        _putchar('\n');
+		_putchar('\n');
 
 	return (0);
 }
