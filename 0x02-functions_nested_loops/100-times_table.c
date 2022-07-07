@@ -29,3 +29,73 @@ void print_times_table(int n)
 		_putchar('\n');
 	}
 }
+
+/**
+ * print_int_as_char - Prints an integer as a character
+ * @k: the integer to print
+ * @l: the multiplier
+ *
+ * Description: This function prints a multiplied intger as character.
+ * It requires the muliplier, l, to figure out how many spaces should be
+ * printed before the integer
+ */
+void print_int_as_char(int k, int l)
+{
+	if (k > 99)
+	{
+		_putchar(k / 100 + '0');
+		_putchar((k / 10 % 10) + '0');
+		_putchar(k % 10 + '0');
+	}
+	else if (k > 9)
+	{
+		_putchar(' ');
+		_putchar(k / 10 + '0');
+		_putchar(k % 10 + '0');
+	}
+	else if (l != 0)
+	{
+		_putchar(' ');
+		_putchar(' ');
+		_putchar(k + '0');
+	}
+	else
+	{
+		_putchar(k + '0');
+	}
+}
+
+/**
+ * print_int_as_char - Prints an integer as a character
+ * @k: the integer to print
+ * @l: the multiplier
+ *
+ * Description: This function prints a multiplied intger as character.
+ * It requires the muliplier, l, to figure out how many spaces should be
+ * printed before the integer
+ */
+void print_int_as_char(int k, int l)
+{
+	if (k > 99)
+	{
+		_putchar(k / 100 + '0');
+		_putchar((k / 10 % 10) + '0');
+		_putchar(k % 10 + '0');
+	}
+	else if (k > 9)
+	{
+		_putchar(' ');
+		_putchar(k / 10 + '0');
+		_putchar(k % 10 + '0');
+	}
+	else if (l != 0)
+	{
+		_putchar(' ');
+		_putchar(' ');
+		_putchar(k + '0');
+	}
+	else
+	{
+		_putchar(k + '0');
+	}
+}
