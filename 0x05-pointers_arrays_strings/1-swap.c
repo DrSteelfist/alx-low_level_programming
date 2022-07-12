@@ -1,7 +1,11 @@
 #include "main.h"
 
-/**Write a function that swaps the values of two integers.
- *
+/**
+ * Write a function that swaps the values of two integers.
+ * swap_int - takes two integer variable and swap them
+ * 
+ * @var1: first variable
+ * @var2: second variable
  */
 
 void swap_int(int *var1, int *var2)
